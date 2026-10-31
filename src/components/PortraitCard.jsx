@@ -78,3 +78,4 @@ export default function PortraitCard({ reducedMotion = false }) {
     </motion.div>
   )
 }
+

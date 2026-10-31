@@ -1,0 +1,42 @@
+export const certifications = [
+  {
+    id: 1,
+    title: '[ Machine Learning & Deep Learning Specialization ]',
+    issuer: '[ Issuing Organization — e.g. DeepLearning.AI / Coursera / Stanford ]',
+    issueDate: '[ Issue Date — e.g. May 2024 / Editable ]',
+    image: '/certificates/certificate-01.png',
+    credentialUrl: '', // Add verification link when available (e.g., 'https://coursera.org/verify/...')
+    skills: ['Machine Learning', 'Python', 'Neural Networks', 'Model Optimization'],
+    status: 'Ready for upload',
+  },
+  {
+    id: 2,
+    title: '[ Python for Data Science & Artificial Intelligence ]',
+    issuer: '[ Issuing Organization — e.g. IBM / edX / FreeCodeCamp ]',
+    issueDate: '[ Issue Date — e.g. March 2024 / Editable ]',
+    image: '/certificates/certificate-02.png',
+    credentialUrl: '',
+    skills: ['Python', 'Data Analytics', 'Pandas & NumPy', 'Algorithms'],
+    status: 'Ready for upload',
+  },
+  {
+    id: 3,
+    title: '[ React & Modern Frontend Architecture ]',
+    issuer: '[ Issuing Organization — e.g. Meta / Udemy / Open Source Academy ]',
+    issueDate: '[ Issue Date — e.g. November 2023 / Editable ]',
+    image: '/certificates/certificate-03.png',
+    credentialUrl: '',
+    skills: ['React', 'JavaScript', 'State Architecture', 'UI/UX Design'],
+    status: 'Ready for upload',
+  },
+  {
+    id: 4,
+    title: '[ Embedded Systems & IoT Engineering ]',
+    issuer: '[ Issuing Organization — e.g. Bannari Amman Institute of Technology / NPTEL ]',
+    issueDate: '[ Issue Date — e.g. August 2023 / Editable ]',
+    image: '/certificates/certificate-04.png',
+    credentialUrl: '',
+    skills: ['Microcontrollers', 'Embedded C', 'Hardware Interfaces', 'Circuit Analysis'],
+    status: 'Ready for upload',
+  },
+]

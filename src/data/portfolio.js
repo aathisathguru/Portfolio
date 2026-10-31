@@ -94,6 +94,7 @@ export const navItems = [
   { id: 'about', label: 'About' },
   { id: 'skills', label: 'Skills' },
   { id: 'projects', label: 'Projects' },
+  { id: 'certifications', label: 'Certifications' },
   { id: 'education', label: 'Education' },
   { id: 'contact', label: 'Contact' },
 ]

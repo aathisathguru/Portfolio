@@ -82,3 +82,4 @@ export default function ResumeDialog({ isOpen, onClose, email }) {
     </AnimatePresence>
   )
 }
+

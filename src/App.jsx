@@ -26,6 +26,7 @@ import ProjectCard from './components/ProjectCard.jsx'
 import SectionHeader from './components/SectionHeader.jsx'
 import PortraitCard from './components/PortraitCard.jsx'
 import ResumeDialog from './components/ResumeDialog.jsx'
+import CertificateGallery from './components/CertificateGallery.jsx'
 import { navItems, portfolio } from './data/portfolio.js'
 
 const HeroScene = lazy(() => import('./components/HeroScene.jsx'))
@@ -268,7 +269,7 @@ function App() {
             >
               <span>SCROLL TO EXPLORE</span>
               <span className="footnote-rule" />
-              <span>01 — 06</span>
+              <span>01 — 07</span>
             </motion.div>
           </div>
 
@@ -524,10 +525,30 @@ function App() {
           </div>
         </section>
 
+        {/* ================= CERTIFICATIONS SECTION ================= */}
+        <section id="certifications" className="content-section page-section certifications-section">
+          <div className="section-index">
+            04 <span>/</span> CERTIFICATIONS
+          </div>
+          <SectionHeader
+            eyebrow="ACCREDITED EXPERTISE"
+            title={
+              <>
+                VERIFIED
+                <br />
+                <em>CREDENTIALS.</em>
+              </>
+            }
+            copy="A dedicated gallery of professional certifications and continuous learning milestones. Upload your certificate photos directly to showcase high-resolution credentials."
+          />
+
+          <CertificateGallery />
+        </section>
+
         {/* ================= EDUCATION SECTION ================= */}
         <section id="education" className="content-section page-section education-section">
           <div className="section-index">
-            04 <span>/</span> EDUCATION
+            05 <span>/</span> EDUCATION
           </div>
           <SectionHeader
             eyebrow="ACADEMIC FOUNDATION"
@@ -601,7 +622,7 @@ function App() {
         {/* ================= CONTACT SECTION ================= */}
         <section id="contact" className="content-section page-section contact-section">
           <div className="section-index">
-            05 <span>/</span> CONTACT
+            06 <span>/</span> CONTACT
           </div>
           <SectionHeader
             eyebrow="THE DIRECT CHANNEL"
