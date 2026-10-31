@@ -1,0 +1,21 @@
+AATHI SATHGURU
+AI / ML DEVELOPER
+
+This is an editable resume placeholder.
+Replace this file with the final PDF or resume document when ready.
+
+Education
+B.E. Electronics and Electrical Engineering
+College: [Add college name]
+Graduation year: [Add graduation year]
+
+Skills
+HTML · CSS · JavaScript · React · Python · Java (Basics) · SQL
+
+Soft skills
+Problem Solving · Team Leadership · Team Collaboration
+
+Contact
+Email: [Add email]
+GitHub: [Add GitHub URL]
+LinkedIn: [Add LinkedIn URL]
